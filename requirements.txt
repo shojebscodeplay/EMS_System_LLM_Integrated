@@ -1,9 +1,9 @@
 streamlit==1.17.0
-langchain==0.0.247
-langchain-huggingface==0.1.2
+langchain==0.1.4  # Adjusted to a compatible version
+langchain-huggingface==0.0.1  # Adjusted to a compatible version
 langchain-community==0.0.2
-langchain-core==0.0.245  # Change this version to match compatibility
+# Removed langchain-core as it might not be necessary for your use case
 python-dotenv==1.0.0
 sentence-transformers==2.2.0
-faiss-cpu==1.7.2
+faiss-cpu==1.7.2  # or faiss-gpu if you are using a GPU
 gunicorn
