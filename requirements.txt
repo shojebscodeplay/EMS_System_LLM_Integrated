@@ -1,7 +1,9 @@
-streamlit==1.17.0
-langchain==0.1.7
-langchain-community==0.0.20  # Updated to be compatible with langchain
-python-dotenv==1.0.0
-sentence-transformers==2.2.0
-faiss-cpu==1.7.2  # or faiss-gpu if using a GPU
+streamlit
+langchain
+langchain-huggingface
+langchain-community
+langchain-core
+python-dotenv
+sentence-transformers
+faiss-cpu  # or faiss-gpu if using a GPU
 gunicorn
